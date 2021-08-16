@@ -10,6 +10,8 @@ import SwiftUI
 struct CarRow: View {
     var body: some View {
         Image("modelx")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
     }
 }
 
